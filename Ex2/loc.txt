@@ -1,0 +1,884 @@
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\__init__.py
+Total LOC: 21
+Filtered LOC: 1
+Single Line Comments: 0
+Multi Line Comments: 17
+Number of Functions: 0
+Number of Classes: 0
+Number of Methods: 0
+**************************
+Classes:
+**************************
+Methods:
+**************************
+Functions:
+**************************
+Other Lines: 1
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\dom\domreg.py
+Total LOC: 100
+Filtered LOC: 57
+Single Line Comments: 7
+Multi Line Comments: 21
+Number of Functions: 4
+Number of Classes: 0
+Number of Methods: 0
+**************************
+Classes:
+**************************
+Methods:
+**************************
+Functions:
+registerDOMImplementation - 1
+_good_enough - 5
+getDOMImplementation - 24
+**************************
+Other Lines: 24
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\dom\expatbuilder.py
+Total LOC: 966
+Filtered LOC: 635
+Single Line Comments: 67
+Multi Line Comments: 159
+Number of Functions: 6
+Number of Classes: 10
+Number of Methods: 55
+**************************
+Classes:
+**************************
+Methods:
+__init__ - 7
+__getstate__ - 1
+__setstate__ - 1
+getAttributeType - 8
+getAttributeTypeNS - 1
+isElementContent - 6
+isEmpty - 4
+isId - 4
+isIdNS - 1
+createParser - 8
+reset - 2
+parseFile - 1
+parseString - 23
+start_doctype_decl_handler - 19
+end_doctype_decl_handler - 5
+pi_handler - 4
+character_data_handler_cdata - 18
+character_data_handler - 9
+entity_decl_handler - 13
+notation_decl_handler - 4
+comment_handler - 4
+start_cdata_section_handler - 2
+end_cdata_section_handler - 2
+external_entity_ref_handler - 20
+first_element_handler - 4
+start_element_handler - 43
+_finish_start_element - 13
+end_element_handler - 7
+_finish_end_element - 9
+_handle_white_text_nodes - 9
+element_decl_handler - 6
+attlist_decl_handler - 6
+xml_decl_handler - 7
+startContainer - 11
+acceptNode - 29
+_getDeclarations - 29
+_getNSattrs - 19
+install - 1
+getSubset - 0
+**************************
+Functions:
+_intern - 1
+_parse_ns_name - 532
+parseString - 5
+parseFragment - 10
+parseFragmentString - 5
+**************************
+Other Lines: 77
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\dom\minicompat.py
+Total LOC: 110
+Filtered LOC: 47
+Single Line Comments: 36
+Multi Line Comments: 5
+Number of Functions: 1
+Number of Classes: 2
+Number of Methods: 10
+**************************
+Classes:
+**************************
+Methods:
+item - 1
+_get_length - 1
+_set_length - 2
+__setstate__ - 3
+__add__ - 3
+__radd__ - 3
+set - 2
+**************************
+Functions:
+**************************
+Other Lines: 47
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\dom\minidom.py
+Total LOC: 2012
+Filtered LOC: 1363
+Single Line Comments: 83
+Multi Line Comments: 281
+Number of Functions: 28
+Number of Classes: 15
+Number of Methods: 179
+**************************
+Classes:
+**************************
+Methods:
+__bool__ - 1
+toxml - 1
+toprettyxml - 16
+hasChildNodes - 1
+_get_childNodes - 1
+_get_firstChild - 1
+_get_lastChild - 1
+insertBefore - 2
+appendChild - 10
+replaceChild - 2
+removeChild - 9
+normalize - 1
+cloneNode - 19
+isSupported - 1
+_get_localName - 4
+isSameNode - 1
+getInterface - 4
+getUserData - 4
+setUserData - 15
+_call_user_data_handler - 4
+unlink - 4
+__enter__ - 1
+__exit__ - 1
+__init__ - 5
+_get_specified - 1
+_get_name - 1
+_set_name - 3
+_get_value - 1
+_set_value - 5
+_get_prefix - 1
+_set_prefix - 13
+_get_isId - 13
+_get_schemaType - 11
+_get_length - 1
+item - 6
+items - 4
+itemsNS - 4
+__contains__ - 4
+keys - 1
+keysNS - 1
+values - 1
+get - 1
+_cmp - 4
+__eq__ - 1
+__ge__ - 1
+__gt__ - 1
+__le__ - 1
+__lt__ - 1
+__getitem__ - 7
+__setitem__ - 13
+getNamedItem - 3
+getNamedItemNS - 3
+removeNamedItem - 2
+removeNamedItemNS - 2
+setNamedItem - 2
+setNamedItemNS - 2
+__delitem__ - 3
+__getstate__ - 1
+__setstate__ - 1
+__repr__ - 7
+_get_namespace - 3
+_ensure_attributes - 3
+_get_tagName - 1
+getAttribute - 6
+getAttributeNS - 6
+setAttribute - 10
+setAttributeNS - 15
+getAttributeNode - 3
+getAttributeNodeNS - 3
+setAttributeNode - 14
+removeAttribute - 7
+removeAttributeNS - 7
+removeAttributeNode - 10
+hasAttribute - 3
+hasAttributeNS - 3
+getElementsByTagName - 1
+getElementsByTagNameNS - 2
+writexml - 9
+_get_attributes - 2
+hasAttributes - 4
+setIdAttribute - 2
+setIdAttributeNS - 2
+setIdAttributeNode - 11
+_get_nodeValue - 1
+_set_nodeValue - 1
+_get_nodeName - 1
+_set_nodeName - 1
+_get_data - 1
+_set_data - 1
+substringData - 7
+appendData - 1
+insertData - 7
+deleteData - 8
+replaceData - 9
+splitText - 13
+_get_wholeText - 16
+replaceWholeText - 24
+_get_isWhitespaceInElementContent - 13
+__len__ - 1
+getAttributeType - 1
+getAttributeTypeNS - 1
+isElementContent - 1
+isEmpty - 1
+isId - 1
+_get_elem_info - 5
+_get_actualEncoding - 1
+_get_doctype - 1
+_get_documentURI - 1
+_get_encoding - 1
+_get_errorHandler - 1
+_get_standalone - 1
+_get_strictErrorChecking - 1
+_get_version - 1
+_get_documentElement - 3
+createDocumentFragment - 3
+createElement - 3
+createTextNode - 6
+createCDATASection - 6
+createComment - 3
+createProcessingInstruction - 3
+createAttribute - 4
+createElementNS - 4
+createAttributeNS - 5
+_create_entity - 3
+_create_notation - 3
+getElementById - 46
+importNode - 5
+renameNode - 46
+**************************
+Functions:
+_append_child - 7
+_in_document - 5
+_write_data - 5
+_get_elements_by_tagName_helper - 6
+_get_elements_by_tagName_ns_helper - 239
+_set_attribute_node - 182
+_get_containing_element - 6
+_get_containing_entref - 86
+_clear_id_cache - 274
+_clone_node - 65
+_nssplit - 5
+_do_pulldom_parse - 5
+parse - 7
+**************************
+Other Lines: 458
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\dom\NodeFilter.py
+Total LOC: 28
+Filtered LOC: 19
+Single Line Comments: 2
+Multi Line Comments: 3
+Number of Functions: 0
+Number of Classes: 1
+Number of Methods: 1
+**************************
+Classes:
+**************************
+Methods:
+**************************
+Functions:
+**************************
+Other Lines: 19
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\dom\pulldom.py
+Total LOC: 350
+Filtered LOC: 234
+Single Line Comments: 13
+Multi Line Comments: 69
+Number of Functions: 0
+Number of Classes: 3
+Number of Methods: 30
+**************************
+Classes:
+**************************
+Methods:
+__init__ - 6
+pop - 3
+setDocumentLocator - 1
+startPrefixMapping - 5
+endPrefixMapping - 1
+startElementNS - 47
+endElementNS - 2
+startElement - 11
+endElement - 2
+comment - 7
+processingInstruction - 7
+ignorableWhitespace - 3
+characters - 3
+startDocument - 3
+buildDocument - 19
+endDocument - 2
+clear - 2
+warning - 1
+error - 1
+fatalError - 1
+reset - 3
+__getitem__ - 11
+__next__ - 4
+__iter__ - 1
+expandNode - 13
+getEvent - 11
+_slurp - 3
+_emit - 3
+**************************
+Functions:
+**************************
+Other Lines: 234
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\dom\xmlbuilder.py
+Total LOC: 388
+Filtered LOC: 248
+Single Line Comments: 14
+Multi Line Comments: 74
+Number of Functions: 1
+Number of Classes: 5
+Number of Methods: 37
+**************************
+Classes:
+**************************
+Methods:
+__init__ - 7
+_get_entityResolver - 1
+_set_entityResolver - 1
+_get_errorHandler - 1
+_set_errorHandler - 1
+_get_filter - 1
+_set_filter - 1
+setFeature - 12
+supportsFeature - 1
+canSetFeature - 60
+getFeature - 16
+parseURI - 5
+parse - 8
+parseWithContext - 3
+_parse_bytestream - 3
+resolveEntity - 14
+_get_opener - 5
+_create_opener - 2
+_guess_media_encoding - 6
+_get_byteStream - 1
+_set_byteStream - 1
+_get_characterStream - 1
+_set_characterStream - 1
+_get_stringData - 1
+_set_stringData - 1
+_get_encoding - 1
+_set_encoding - 1
+_get_publicId - 1
+_set_publicId - 1
+_get_systemId - 1
+_set_systemId - 1
+_get_baseURI - 1
+_set_baseURI - 1
+_get_whatToShow - 1
+acceptNode - 1
+startContainer - 1
+**************************
+Functions:
+_name_xform - 81
+**************************
+Other Lines: 166
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\dom\__init__.py
+Total LOC: 141
+Filtered LOC: 41
+Single Line Comments: 0
+Multi Line Comments: 78
+Number of Functions: 0
+Number of Classes: 18
+Number of Methods: 2
+**************************
+Classes:
+**************************
+Methods:
+__init__ - 4
+_get_code - 1
+**************************
+Functions:
+**************************
+Other Lines: 41
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\etree\cElementTree.py
+Total LOC: 4
+Filtered LOC: 1
+Single Line Comments: 1
+Multi Line Comments: 0
+Number of Functions: 0
+Number of Classes: 0
+Number of Methods: 0
+**************************
+Classes:
+**************************
+Methods:
+**************************
+Functions:
+**************************
+Other Lines: 1
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\etree\ElementInclude.py
+Total LOC: 186
+Filtered LOC: 85
+Single Line Comments: 80
+Multi Line Comments: 0
+Number of Functions: 3
+Number of Classes: 2
+Number of Methods: 0
+**************************
+Classes:
+LimitedRecursiveIncludeError - 2
+**************************
+Methods:
+**************************
+Functions:
+default_loader - 9
+include - 10
+**************************
+Other Lines: 61
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\etree\ElementPath.py
+Total LOC: 423
+Filtered LOC: 304
+Single Line Comments: 85
+Multi Line Comments: 0
+Number of Functions: 14
+Number of Classes: 1
+Number of Methods: 5
+**************************
+Classes:
+_SelectorContext: - 243
+**************************
+Methods:
+select - 8
+__init__ - 1
+**************************
+Functions:
+xpath_tokenizer - 21
+get_parent_map - 7
+_is_wildcard_tag - 1
+_prepare_tag - 32
+prepare_child - 17
+prepare_star - 4
+prepare_self - 3
+prepare_descendant - 28
+prepare_parent - 10
+prepare_predicate - 99
+iterfind - 35
+find - 1
+findall - 1
+**************************
+Other Lines: -212
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\etree\ElementTree.py
+Total LOC: 2091
+Filtered LOC: 1124
+Single Line Comments: 162
+Multi Line Comments: 624
+Number of Functions: 24
+Number of Classes: 8
+Number of Methods: 78
+**************************
+Classes:
+**************************
+Methods:
+__init__ - 31
+__repr__ - 1
+makeelement - 1
+copy - 5
+__copy__ - 5
+__len__ - 1
+__bool__ - 6
+__getitem__ - 1
+__setitem__ - 6
+__delitem__ - 1
+append - 2
+extend - 3
+insert - 1
+find - 9
+findtext - 9
+findall - 9
+iterfind - 9
+clear - 3
+get - 1
+set - 1
+keys - 1
+items - 1
+iter - 1
+itertext - 11
+__str__ - 1
+__hash__ - 1
+__le__ - 3
+__lt__ - 3
+__ge__ - 3
+__gt__ - 3
+__eq__ - 3
+getroot - 1
+parse - 20
+write - 32
+write_c14n - 1
+add_qname - 23
+_indent_children - 15
+iterator - 18
+feed - 13
+read_events - 7
+close - 1
+start - 12
+end - 10
+comment - 11
+pi - 10
+_handle_single - 8
+_setevents - 43
+_raiseerror - 4
+_fixname - 8
+_start_ns - 1
+_end_ns - 1
+_start - 49
+_end - 1
+_default - 49
+_iter_namespaces - 3
+_resolve_prefix_name - 5
+_qname - 25
+data - 2
+_flush - 12
+start_ns - 5
+**************************
+Functions:
+iselement - 94
+SubElement - 4
+Comment - 3
+ProcessingInstruction - 5
+_get_writer - 35
+_namespaces - 49
+_serialize_xml - 50
+_serialize_html - 47
+_serialize_text - 7
+register_namespace - 13
+_raise_serialization_error - 3
+_escape_cdata - 10
+_escape_attrib - 18
+_escape_attrib_html - 10
+tostring - 15
+indent - 24
+parse - 3
+iterparse - 43
+XML - 4
+XMLID - 10
+fromstringlist - 235
+canonicalize - 199
+_escape_cdata_c14n - 12
+_escape_attrib_c14n - 19
+**************************
+Other Lines: 188
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\etree\__init__.py
+Total LOC: 34
+Filtered LOC: 0
+Single Line Comments: 31
+Multi Line Comments: 0
+Number of Functions: 0
+Number of Classes: 0
+Number of Methods: 0
+**************************
+Classes:
+**************************
+Methods:
+**************************
+Functions:
+**************************
+Other Lines: 0
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\parsers\expat.py
+Total LOC: 9
+Filtered LOC: 0
+Single Line Comments: 0
+Multi Line Comments: 9
+Number of Functions: 0
+Number of Classes: 0
+Number of Methods: 0
+**************************
+Classes:
+**************************
+Methods:
+**************************
+Functions:
+**************************
+Other Lines: 0
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\parsers\__init__.py
+Total LOC: 9
+Filtered LOC: 0
+Single Line Comments: 0
+Multi Line Comments: 8
+Number of Functions: 0
+Number of Classes: 0
+Number of Methods: 0
+**************************
+Classes:
+**************************
+Methods:
+**************************
+Functions:
+**************************
+Other Lines: 0
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\sax\expatreader.py
+Total LOC: 447
+Filtered LOC: 56
+Single Line Comments: 6
+Multi Line Comments: 369
+Number of Functions: 0
+Number of Classes: 3
+Number of Methods: 6
+**************************
+Classes:
+**************************
+Methods:
+_mkproxy - 1
+__init__ - 1
+getColumnNumber - 4
+getLineNumber - 4
+getPublicId - 4
+**************************
+Functions:
+**************************
+Other Lines: 56
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\sax\handler.py
+Total LOC: 388
+Filtered LOC: 65
+Single Line Comments: 75
+Multi Line Comments: 191
+Number of Functions: 0
+Number of Classes: 5
+Number of Methods: 24
+**************************
+Classes:
+**************************
+Methods:
+error - 2
+fatalError - 2
+warning - 2
+__init__ - 1
+setDocumentLocator - 1
+startDocument - 0
+endDocument - 0
+startPrefixMapping - 0
+endPrefixMapping - 0
+startElement - 0
+endElement - 0
+startElementNS - 0
+endElementNS - 0
+characters - 0
+ignorableWhitespace - 0
+processingInstruction - 0
+skippedEntity - 0
+notationDecl - 1
+unparsedEntityDecl - 1
+resolveEntity - 11
+comment - 0
+startDTD - 0
+endDTD - 0
+**************************
+Functions:
+**************************
+Other Lines: 65
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\sax\saxutils.py
+Total LOC: 370
+Filtered LOC: 157
+Single Line Comments: 18
+Multi Line Comments: 141
+Number of Functions: 5
+Number of Classes: 1
+Number of Methods: 30
+**************************
+Classes:
+**************************
+Methods:
+__init__ - 2
+_qname - 0
+error - 1
+fatalError - 1
+warning - 1
+setDocumentLocator - 1
+startDocument - 1
+endDocument - 1
+startPrefixMapping - 1
+endPrefixMapping - 1
+startElement - 1
+endElement - 1
+startElementNS - 1
+endElementNS - 1
+characters - 1
+ignorableWhitespace - 1
+processingInstruction - 1
+skippedEntity - 1
+notationDecl - 1
+unparsedEntityDecl - 1
+resolveEntity - 1
+parse - 5
+setLocale - 1
+getFeature - 1
+setFeature - 1
+getProperty - 1
+setProperty - 1
+getParent - 1
+setParent - 1
+**************************
+Functions:
+__dict_replace - 6
+unescape - 5
+quoteattr - 10
+_gettextwriter - 100
+**************************
+Other Lines: 32
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\sax\xmlreader.py
+Total LOC: 381
+Filtered LOC: 184
+Single Line Comments: 5
+Multi Line Comments: 112
+Number of Functions: 1
+Number of Classes: 6
+Number of Methods: 59
+**************************
+Classes:
+AttributesNSImpl - 185
+**************************
+Methods:
+__init__ - 2
+parse - 11
+getContentHandler - 2
+setContentHandler - 2
+getDTDHandler - 2
+setDTDHandler - 2
+getEntityResolver - 2
+setEntityResolver - 2
+getErrorHandler - 2
+setErrorHandler - 2
+setLocale - 1
+getFeature - 2
+setFeature - 2
+getProperty - 2
+setProperty - 2
+feed - 1
+prepareParser - 1
+close - 1
+reset - 1
+getColumnNumber - 2
+getLineNumber - 2
+getPublicId - 2
+getSystemId - 2
+setPublicId - 2
+setSystemId - 2
+setEncoding - 1
+getEncoding - 2
+setByteStream - 1
+getByteStream - 1
+setCharacterStream - 1
+getCharacterStream - 2
+getLength - 1
+getType - 1
+getValue - 1
+getValueByQName - 4
+getNameByQName - 4
+getQNameByName - 1
+getNames - 1
+getQNames - 1
+__len__ - 1
+__getitem__ - 1
+keys - 1
+__contains__ - 1
+get - 1
+copy - 1
+items - 1
+values - 1
+**************************
+Functions:
+_test - 3
+**************************
+Other Lines: -6
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\sax\_exceptions.py
+Total LOC: 132
+Filtered LOC: 49
+Single Line Comments: 8
+Multi Line Comments: 51
+Number of Functions: 0
+Number of Classes: 4
+Number of Methods: 11
+**************************
+Classes:
+**************************
+Methods:
+__init__ - 6
+getMessage - 2
+getException - 2
+__str__ - 2
+__getitem__ - 1
+getColumnNumber - 1
+getLineNumber - 2
+getPublicId - 2
+getSystemId - 2
+**************************
+Functions:
+**************************
+Other Lines: 49
+==========================
+==========================
+File: C:\Users\Pranesh\Desktop\PSP-Project\New PSP\Zdrive\PSP0-1\xml\sax\__init__.py
+Total LOC: 108
+Filtered LOC: 55
+Single Line Comments: 8
+Multi Line Comments: 26
+Number of Functions: 4
+Number of Classes: 0
+Number of Methods: 4
+**************************
+Classes:
+**************************
+Methods:
+_create_parser - 2
+**************************
+Functions:
+parse - 4
+parseString - 12
+make_parser - 10
+**************************
+Other Lines: 26
+==========================

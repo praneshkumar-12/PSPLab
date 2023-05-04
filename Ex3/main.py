@@ -1,3 +1,17 @@
+"""
+    This module provides functionality for printing a line of linear regression, by taking
+    x and y values as different parameters.
+
+    Using linear regression formulas, constants b0 and b1 are found.
+
+    They are substituted into the linear regression line formula to find the equation
+
+    Original Author: Pranesh Kumar
+
+    Created on: 03 May 2023
+"""
+
+# importing csv module for reading a csv file
 import csv
 
 
@@ -25,12 +39,13 @@ def readcsvfile(filepath):
 
     return lines
 
+
 def statement1(lines):
     """
     Here, the x value is the estimated proxy size and the y value is the actual LOC
 
-    :param lines:
-    :return:
+    :param lines: nested list containing each line of the csv file
+    :return: None
     """
 
     n = 10
@@ -45,7 +60,6 @@ def statement1(lines):
     denominatorsum = 0
 
     for line in lines:
-
         estimatedproxy = float(line[1])
         actualloc = float(line[3])
 
@@ -58,7 +72,7 @@ def statement1(lines):
     xavg /= 10
     yavg /= 10
 
-    b1 = (numeratorsum - (n * xavg * yavg))/(denominatorsum - (n * xavg * xavg))
+    b1 = (numeratorsum - (n * xavg * yavg)) / (denominatorsum - (n * xavg * xavg))
     b0 = yavg - (b1 * xavg)
 
     print("• X: estimated proxy size; Y: actual LOC (added+modified)")
@@ -67,10 +81,10 @@ def statement1(lines):
 
 def statement2(lines):
     """
-    Here, the x value is the estimated proxy size and the y value is the actual time taken
+    Here, the x value is the estimated proxy size and the y value is the actual time taken.
 
-    :param lines:
-    :return:
+    :param lines: nested list containing each line of the csv file
+    :return: None
     """
 
     n = 10
@@ -85,7 +99,6 @@ def statement2(lines):
     denominatorsum = 0
 
     for line in lines:
-
         estimatedproxy = float(line[1])
         actualtimetaken = float(line[4])
 
@@ -98,18 +111,19 @@ def statement2(lines):
     xavg /= 10
     yavg /= 10
 
-    b1 = (numeratorsum - (n * xavg * yavg))/(denominatorsum - (n * xavg * xavg))
+    b1 = (numeratorsum - (n * xavg * yavg)) / (denominatorsum - (n * xavg * xavg))
     b0 = yavg - (b1 * xavg)
 
     print("• X: estimated proxy size; Y: actual time taken")
     print(f"y = {round(b0, 3)} + {round(b1, 3)}x\n")
 
+
 def statement3(lines):
     """
     Here, the x value is the planned LOC and the y value is the actual LOC
 
-    :param lines:
-    :return:
+    :param lines: nested list containing each line of the csv file
+    :return: None
     """
 
     n = 10
@@ -124,7 +138,6 @@ def statement3(lines):
     denominatorsum = 0
 
     for line in lines:
-
         plannedloc = float(line[2])
         actualloc = float(line[3])
 
@@ -137,18 +150,19 @@ def statement3(lines):
     xavg /= 10
     yavg /= 10
 
-    b1 = (numeratorsum - (n * xavg * yavg))/(denominatorsum - (n * xavg * xavg))
+    b1 = (numeratorsum - (n * xavg * yavg)) / (denominatorsum - (n * xavg * xavg))
     b0 = yavg - (b1 * xavg)
 
     print("• X: planned LOC (added+modified); Y: actual LOC (added+modified)")
     print(f"y = {round(b0, 3)} + {round(b1, 3)}x\n")
 
+
 def statement4(lines):
     """
     Here, the x value is the planned LOC and the y value is the actual time taken
 
-    :param lines:
-    :return:
+    :param lines: nested list containing each line of the csv file
+    :return: None
     """
 
     n = 10
@@ -163,7 +177,6 @@ def statement4(lines):
     denominatorsum = 0
 
     for line in lines:
-
         plannedloc = float(line[2])
         actualtimetaken = float(line[3])
 
@@ -176,12 +189,14 @@ def statement4(lines):
     xavg /= 10
     yavg /= 10
 
-    b1 = (numeratorsum - (n * xavg * yavg))/(denominatorsum - (n * xavg * xavg))
+    b1 = (numeratorsum - (n * xavg * yavg)) / (denominatorsum - (n * xavg * xavg))
     b0 = yavg - (b1 * xavg)
 
     print("• X: planned LOC (added+modified); Y: actual time taken")
     print(f"y = {round(b0, 3)} + {round(b1, 3)}x\n")
 
+
+# driver code
 if __name__ == "__main__":
     data = readcsvfile("loc.csv")
     statement1(data)
